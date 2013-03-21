@@ -1,0 +1,83 @@
+/** estilo.css **/
+
+* {
+    font-family: Verdana, Arial, sans-serif
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #505050;
+    background: #f1f1f1
+}
+
+#wrap {
+    width: 750px;
+    margin: 0 auto;
+    background: #ffffff
+}
+
+#header {
+    padding: 10px 20px;
+    background: #718fc2;
+    overflow: hidden;
+    font-weight: bolder;
+    font-size: 2em;
+    color: #eaebec
+}
+
+h1 {
+    margin: 0;
+}
+
+#main {
+    position: absolute;
+    top: 100px;
+    width: 510px;
+    padding-left: 230px;
+    padding-right: 10px;
+    z-index: -2;
+    text-align: justify;
+    background: #ffffff
+}
+
+#main a{
+    color: #7e7777;
+    text-decoration: none
+}
+
+#main a:hover{
+    text-decoration: underline
+}
+
+#sidebar {
+    position: absolute;
+    top: 90px;    
+    width: 190px;
+    padding: 10px;
+    z-index: -1;
+    background: #b3c5e5;
+    font-size: 0.9em
+}
+
+#sidebar a{
+    color: white;
+    text-decoration: none
+}
+
+#sidebar a:hover{
+    text-decoration: underline 
+}
+
+#sidebar ul {
+    margin: 15px;
+    padding: 0;
+    list-style: circle;
+}
+
+#sidebar li {
+    display: list-item;
+}
+
+
