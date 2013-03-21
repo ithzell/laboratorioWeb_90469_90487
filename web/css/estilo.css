@@ -24,6 +24,10 @@ html {
     overflow: hidden;
     font-weight: bolder;
     font-size: 2em;
+}
+
+#header a, a:hover, a:visited{
+    text-decoration: none;
     color: #eff2f4
 }
 

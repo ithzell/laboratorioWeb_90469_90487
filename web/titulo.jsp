@@ -8,5 +8,5 @@
 <!DOCTYPE html>
 <div id="header">
     <img src="img/logo.png"> 
-    Laboratorio
+    <a href="index.jsp">Laboratorio</a>
 </div>
