@@ -6,12 +6,14 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<h3>Catálogo de Productos</h3>
-<ul>
-    <li><a href="">Agregar producto</a></li>
-    <li><a href="">Actualizar producto</a></li>
-    <li><a href="">Eliminar productos</a></li>
-    <li><a href="">Consultar productos</a></li>
-    <br>
-    <li><a href="">Regresar a menú principal</a></li>
-</ul>
+<div id="main">
+    <h3>Catálogo de Productos</h3>
+    <ul>
+        <li><a href="capturaClave.jsp">Agregar producto</a></li>
+        <li><a href="capturaClave.jsp">Actualizar producto</a></li>
+        <li><a href="capturaClave.jsp">Eliminar productos</a></li>
+        <li><a href="capturaClave.jsp">Consultar productos</a></li>
+        <br>
+        <li><a href="index.jsp">Regresar a menú principal</a></li>
+    </ul>
+</div>
